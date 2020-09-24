@@ -9,7 +9,7 @@
   },
   "version": "1.0.0",
   "description": "Shipping module for Etsy FEC project",
-  "main": "server.js",
+  "private": "true",
   "scripts": {
     "seed": "node ./seed/shipping-seeder.js",
     "dev-client": "webpack --config webpack.config.js --watch",
@@ -59,6 +59,7 @@
     "jest-enzyme": "^7.1.2",
     "nodemon": "^2.0.4",
     "supertest": "^4.0.2",
+    "terser": "^5.3.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   }
